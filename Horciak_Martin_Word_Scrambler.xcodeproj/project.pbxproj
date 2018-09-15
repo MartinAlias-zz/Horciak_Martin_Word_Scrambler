@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B54CACC214DAAC300A1A16F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54CACB214DAAC300A1A16F /* AppDelegate.swift */; };
+		3B54CACE214DAAC300A1A16F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54CACD214DAAC300A1A16F /* ViewController.swift */; };
+		3B54CAD1214DAAC300A1A16F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B54CACF214DAAC300A1A16F /* Main.storyboard */; };
+		3B54CAD3214DAAC400A1A16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B54CAD2214DAAC400A1A16F /* Assets.xcassets */; };
+		3B54CAD6214DAAC400A1A16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B54CAD4214DAAC400A1A16F /* LaunchScreen.storyboard */; };
+		3B54CAE1214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54CAE0214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.swift */; };
+		3B54CAEC214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54CAEB214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B54CADD214DAAC400A1A16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B54CAC0214DAAC300A1A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B54CAC7214DAAC300A1A16F;
+			remoteInfo = Horciak_Martin_Word_Scrambler;
+		};
+		3B54CAE8214DAAC400A1A16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B54CAC0214DAAC300A1A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B54CAC7214DAAC300A1A16F;
+			remoteInfo = Horciak_Martin_Word_Scrambler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B54CAC8214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horciak_Martin_Word_Scrambler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B54CACB214DAAC300A1A16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B54CACD214DAAC300A1A16F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B54CAD0214DAAC300A1A16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B54CAD2214DAAC400A1A16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B54CAD5214DAAC400A1A16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B54CAD7214DAAC400A1A16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B54CADC214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horciak_Martin_Word_ScramblerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B54CAE0214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horciak_Martin_Word_ScramblerTests.swift; sourceTree = "<group>"; };
+		3B54CAE2214DAAC400A1A16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B54CAE7214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horciak_Martin_Word_ScramblerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B54CAEB214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horciak_Martin_Word_ScramblerUITests.swift; sourceTree = "<group>"; };
+		3B54CAED214DAAC400A1A16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B54CAC5214DAAC300A1A16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B54CAD9214DAAC400A1A16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B54CAE4214DAAC400A1A16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B54CABF214DAAC300A1A16F = {
+			isa = PBXGroup;
+			children = (
+				3B54CACA214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler */,
+				3B54CADF214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests */,
+				3B54CAEA214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests */,
+				3B54CAC9214DAAC300A1A16F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B54CAC9214DAAC300A1A16F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B54CAC8214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler.app */,
+				3B54CADC214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.xctest */,
+				3B54CAE7214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B54CACA214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler */ = {
+			isa = PBXGroup;
+			children = (
+				3B54CACB214DAAC300A1A16F /* AppDelegate.swift */,
+				3B54CACD214DAAC300A1A16F /* ViewController.swift */,
+				3B54CACF214DAAC300A1A16F /* Main.storyboard */,
+				3B54CAD2214DAAC400A1A16F /* Assets.xcassets */,
+				3B54CAD4214DAAC400A1A16F /* LaunchScreen.storyboard */,
+				3B54CAD7214DAAC400A1A16F /* Info.plist */,
+			);
+			path = Horciak_Martin_Word_Scrambler;
+			sourceTree = "<group>";
+		};
+		3B54CADF214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B54CAE0214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.swift */,
+				3B54CAE2214DAAC400A1A16F /* Info.plist */,
+			);
+			path = Horciak_Martin_Word_ScramblerTests;
+			sourceTree = "<group>";
+		};
+		3B54CAEA214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B54CAEB214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.swift */,
+				3B54CAED214DAAC400A1A16F /* Info.plist */,
+			);
+			path = Horciak_Martin_Word_ScramblerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B54CAC7214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B54CAF0214DAAC400A1A16F /* Build configuration list for PBXNativeTarget "Horciak_Martin_Word_Scrambler" */;
+			buildPhases = (
+				3B54CAC4214DAAC300A1A16F /* Sources */,
+				3B54CAC5214DAAC300A1A16F /* Frameworks */,
+				3B54CAC6214DAAC300A1A16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horciak_Martin_Word_Scrambler;
+			productName = Horciak_Martin_Word_Scrambler;
+			productReference = 3B54CAC8214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B54CADB214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B54CAF3214DAAC400A1A16F /* Build configuration list for PBXNativeTarget "Horciak_Martin_Word_ScramblerTests" */;
+			buildPhases = (
+				3B54CAD8214DAAC400A1A16F /* Sources */,
+				3B54CAD9214DAAC400A1A16F /* Frameworks */,
+				3B54CADA214DAAC400A1A16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B54CADE214DAAC400A1A16F /* PBXTargetDependency */,
+			);
+			name = Horciak_Martin_Word_ScramblerTests;
+			productName = Horciak_Martin_Word_ScramblerTests;
+			productReference = 3B54CADC214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B54CAE6214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B54CAF6214DAAC400A1A16F /* Build configuration list for PBXNativeTarget "Horciak_Martin_Word_ScramblerUITests" */;
+			buildPhases = (
+				3B54CAE3214DAAC400A1A16F /* Sources */,
+				3B54CAE4214DAAC400A1A16F /* Frameworks */,
+				3B54CAE5214DAAC400A1A16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B54CAE9214DAAC400A1A16F /* PBXTargetDependency */,
+			);
+			name = Horciak_Martin_Word_ScramblerUITests;
+			productName = Horciak_Martin_Word_ScramblerUITests;
+			productReference = 3B54CAE7214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B54CAC0214DAAC300A1A16F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Martin Horciak";
+				TargetAttributes = {
+					3B54CAC7214DAAC300A1A16F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3B54CADB214DAAC400A1A16F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3B54CAC7214DAAC300A1A16F;
+					};
+					3B54CAE6214DAAC400A1A16F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3B54CAC7214DAAC300A1A16F;
+					};
+				};
+			};
+			buildConfigurationList = 3B54CAC3214DAAC300A1A16F /* Build configuration list for PBXProject "Horciak_Martin_Word_Scrambler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B54CABF214DAAC300A1A16F;
+			productRefGroup = 3B54CAC9214DAAC300A1A16F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B54CAC7214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler */,
+				3B54CADB214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests */,
+				3B54CAE6214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B54CAC6214DAAC300A1A16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B54CAD6214DAAC400A1A16F /* LaunchScreen.storyboard in Resources */,
+				3B54CAD3214DAAC400A1A16F /* Assets.xcassets in Resources */,
+				3B54CAD1214DAAC300A1A16F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B54CADA214DAAC400A1A16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B54CAE5214DAAC400A1A16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B54CAC4214DAAC300A1A16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B54CACE214DAAC300A1A16F /* ViewController.swift in Sources */,
+				3B54CACC214DAAC300A1A16F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B54CAD8214DAAC400A1A16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B54CAE1214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B54CAE3214DAAC400A1A16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B54CAEC214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B54CADE214DAAC400A1A16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B54CAC7214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler */;
+			targetProxy = 3B54CADD214DAAC400A1A16F /* PBXContainerItemProxy */;
+		};
+		3B54CAE9214DAAC400A1A16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B54CAC7214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler */;
+			targetProxy = 3B54CAE8214DAAC400A1A16F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B54CACF214DAAC300A1A16F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B54CAD0214DAAC300A1A16F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B54CAD4214DAAC400A1A16F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B54CAD5214DAAC400A1A16F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B54CAEE214DAAC400A1A16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B54CAEF214DAAC400A1A16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B54CAF1214DAAC400A1A16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Horciak_Martin_Word_Scrambler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-Word-Scrambler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B54CAF2214DAAC400A1A16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Horciak_Martin_Word_Scrambler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-Word-Scrambler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B54CAF4214DAAC400A1A16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Horciak_Martin_Word_ScramblerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-Word-ScramblerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horciak_Martin_Word_Scrambler.app/Horciak_Martin_Word_Scrambler";
+			};
+			name = Debug;
+		};
+		3B54CAF5214DAAC400A1A16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Horciak_Martin_Word_ScramblerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-Word-ScramblerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horciak_Martin_Word_Scrambler.app/Horciak_Martin_Word_Scrambler";
+			};
+			name = Release;
+		};
+		3B54CAF7214DAAC400A1A16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Horciak_Martin_Word_ScramblerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-Word-ScramblerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horciak_Martin_Word_Scrambler;
+			};
+			name = Debug;
+		};
+		3B54CAF8214DAAC400A1A16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Horciak_Martin_Word_ScramblerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-Word-ScramblerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horciak_Martin_Word_Scrambler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B54CAC3214DAAC300A1A16F /* Build configuration list for PBXProject "Horciak_Martin_Word_Scrambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B54CAEE214DAAC400A1A16F /* Debug */,
+				3B54CAEF214DAAC400A1A16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B54CAF0214DAAC400A1A16F /* Build configuration list for PBXNativeTarget "Horciak_Martin_Word_Scrambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B54CAF1214DAAC400A1A16F /* Debug */,
+				3B54CAF2214DAAC400A1A16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B54CAF3214DAAC400A1A16F /* Build configuration list for PBXNativeTarget "Horciak_Martin_Word_ScramblerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B54CAF4214DAAC400A1A16F /* Debug */,
+				3B54CAF5214DAAC400A1A16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B54CAF6214DAAC400A1A16F /* Build configuration list for PBXNativeTarget "Horciak_Martin_Word_ScramblerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B54CAF7214DAAC400A1A16F /* Debug */,
+				3B54CAF8214DAAC400A1A16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B54CAC0214DAAC300A1A16F /* Project object */;
+}
