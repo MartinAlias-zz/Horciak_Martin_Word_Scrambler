@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B35B33A216D157900886F61 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B35B339216D157900886F61 /* LeaderBoardViewController.swift */; };
 		3B54CACC214DAAC300A1A16F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54CACB214DAAC300A1A16F /* AppDelegate.swift */; };
 		3B54CACE214DAAC300A1A16F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54CACD214DAAC300A1A16F /* ViewController.swift */; };
 		3B54CAD1214DAAC300A1A16F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B54CACF214DAAC300A1A16F /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		3B54CAD6214DAAC400A1A16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B54CAD4214DAAC400A1A16F /* LaunchScreen.storyboard */; };
 		3B54CAE1214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54CAE0214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerTests.swift */; };
 		3B54CAEC214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54CAEB214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.swift */; };
+		3BD3C67E2166739000D70D88 /* ViewControllerStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3C67D2166739000D70D88 /* ViewControllerStart.swift */; };
+		3BDCF3A1216C985700E8AFCC /* LevelSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDCF3A0216C985700E8AFCC /* LevelSelectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B35B339216D157900886F61 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
 		3B54CAC8214DAAC300A1A16F /* Horciak_Martin_Word_Scrambler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horciak_Martin_Word_Scrambler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B54CACB214DAAC300A1A16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B54CACD214DAAC300A1A16F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		3B54CAE7214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horciak_Martin_Word_ScramblerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B54CAEB214DAAC400A1A16F /* Horciak_Martin_Word_ScramblerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horciak_Martin_Word_ScramblerUITests.swift; sourceTree = "<group>"; };
 		3B54CAED214DAAC400A1A16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD3C67D2166739000D70D88 /* ViewControllerStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStart.swift; sourceTree = "<group>"; };
+		3BDCF3A0216C985700E8AFCC /* LevelSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				3B54CACB214DAAC300A1A16F /* AppDelegate.swift */,
+				3BD3C67D2166739000D70D88 /* ViewControllerStart.swift */,
 				3B54CACD214DAAC300A1A16F /* ViewController.swift */,
+				3B35B339216D157900886F61 /* LeaderBoardViewController.swift */,
+				3BDCF3A0216C985700E8AFCC /* LevelSelectorViewController.swift */,
 				3B54CACF214DAAC300A1A16F /* Main.storyboard */,
 				3B54CAD2214DAAC400A1A16F /* Assets.xcassets */,
 				3B54CAD4214DAAC400A1A16F /* LaunchScreen.storyboard */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B54CACE214DAAC300A1A16F /* ViewController.swift in Sources */,
+				3BD3C67E2166739000D70D88 /* ViewControllerStart.swift in Sources */,
+				3BDCF3A1216C985700E8AFCC /* LevelSelectorViewController.swift in Sources */,
 				3B54CACC214DAAC300A1A16F /* AppDelegate.swift in Sources */,
+				3B35B33A216D157900886F61 /* LeaderBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6HY72467J;
 				INFOPLIST_FILE = Horciak_Martin_Word_Scrambler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6HY72467J;
 				INFOPLIST_FILE = Horciak_Martin_Word_Scrambler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
